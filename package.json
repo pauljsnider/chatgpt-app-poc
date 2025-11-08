@@ -1,0 +1,21 @@
+{
+  "name": "chatgpt-admin",
+  "version": "1.0.0",
+  "description": "ChatGPT Apps SDK - Documentation and Example App",
+  "private": true,
+  "scripts": {
+    "dev": "./scripts/dev.sh",
+    "setup-ngrok": "./scripts/setup-ngrok.sh",
+    "build": "cd web && npm run build",
+    "start": "cd server && npm start",
+    "install-all": "cd server && npm install && cd ../web && npm install"
+  },
+  "keywords": [
+    "chatgpt",
+    "openai",
+    "mcp",
+    "apps-sdk"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,40 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+server/node_modules/
+web/node_modules/
+
+# Build outputs
+web/dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ngrok
+ngrok
+ngrok.exe
+ngrok.yml
+
+# Temporary files
+*.tmp
+.cache/
+
+# Production
+dist/
+build/
